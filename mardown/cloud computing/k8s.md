@@ -230,8 +230,8 @@ spec:
 
 声明式对象配置跟命令式对象配置很相似，但是它只有一个命令apply。
 
-
+1.执行
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4OTE3MDA5LDE0OTgyODMzODVdfQ==
+eyJoaXN0b3J5IjpbLTQ3OTg2MDU2MSwxNDk4MjgzMzg1XX0=
 -->
