@@ -228,7 +228,10 @@ spec:
 
 ### 3.3.3声明式对象配置
 
+声明式对象配置跟命令式对象配置很相似，但是它只有一个命令apply。
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODI4MzM4NV19
+eyJoaXN0b3J5IjpbOTA4OTE3MDA5LDE0OTgyODMzODVdfQ==
 -->
