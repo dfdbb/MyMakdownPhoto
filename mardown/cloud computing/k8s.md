@@ -1,6 +1,7 @@
 重新init 先执行 kubeadm rese
+![](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/09/28/0qbJxVLT47cbpta5.png)
 
-![](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/09/28/0qbJxVLT47cbpta5.png)t
+![](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/09/28/JAYgZliLV42r9qQ7.png)
 
 ## 三
 
@@ -244,6 +245,6 @@ spec:
  如果资源不存在，就创建，相当于  kubectl  create
  如果资源已存在，就更新，相当于  kubectl  patch
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTE3NjE0MywtODM4MDk1NTUzLDE0OT
-gyODMzODVdfQ==
+eyJoaXN0b3J5IjpbLTIxOTI4NjI3MiwxMTk5MTc2MTQzLC04Mz
+gwOTU1NTMsMTQ5ODI4MzM4NV19
 -->
