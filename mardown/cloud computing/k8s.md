@@ -230,8 +230,17 @@ spec:
 
 声明式对象配置跟命令式对象配置很相似，但是它只有一个命令apply。
 
-1.执行
+1.执行apply
+![](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/09/28/vJVVvrRwQsdasf6A.png)
 
+2.再次执行apply 
+![](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/09/28/J3HnYmjqFepk7Fg9.png)
+
+总结:
+ 其实声明式对象配置就是使用apply描述一个资源最终的状态（在yaml中定义状态）
+ 使用apply操作资源：
+ 如果资源不存在，就创建，相当于  kubectl  create
+ 如果资源已存在，就更新，相当于  kubectl  patch
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTg2MDU2MSwxNDk4MjgzMzg1XX0=
+eyJoaXN0b3J5IjpbLTgzODA5NTU1MywxNDk4MjgzMzg1XX0=
 -->
