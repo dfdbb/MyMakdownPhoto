@@ -287,9 +287,13 @@ default           Active   45h     #  所有未指定Namespace的对象都会被
 kube-node-lease   Active   45h     #  集群节点之间的心跳维护，v1.13开始引入
 kube-public       Active   45h     #  此命名空间下的资源可以被所有人访问（包括未认证用户）
 kube-system       Active   45h     #  所有由Kubernetes系统创建的资源都处于这个命名空间`
+
+
+下面来看namespace资源的具体操作：	
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzc1NzU1OSwtMzY5MzkwNzkxLC0xOT
-I1MjgxMDA4LDE1OTA3ODUwOTQsNDM1ODI5MTE4LC05OTI4NDk0
-MywtMjE5Mjg2MjcyLDExOTkxNzYxNDMsLTgzODA5NTU1MywxND
-k4MjgzMzg1XX0=
+eyJoaXN0b3J5IjpbMTg4ODkyOTY2NiwtNTE3NzU3NTU5LC0zNj
+kzOTA3OTEsLTE5MjUyODEwMDgsMTU5MDc4NTA5NCw0MzU4Mjkx
+MTgsLTk5Mjg0OTQzLC0yMTkyODYyNzIsMTE5OTE3NjE0MywtOD
+M4MDk1NTUzLDE0OTgyODMzODVdfQ==
 -->
