@@ -266,8 +266,19 @@ kubectl的运行是需要进行配置的，它的配置文件是$HOME/.kube，�
 删除资源 使用命令式对象配置 kubectl delete -f XXX.yaml
 
 查询资源 使用命令式对象管理 kubectl get(describe) 资源名称
+
+## 4.实战入门
+本章节将介绍如何在kubernetes集群中部署一个nginx服务，并且能够对其进行访问。
+
+Namespace是kubernetes系统中的一种非常重要资源，它的主要作用是用来实现**多套环境的资源隔离**或者**多租户的资源隔离**。
+
+默认情况下，kubernetes集群中的所有的Pod都是可以相互访问的。但是在实际中，可能不想让两个Pod之间进行互相的访问，那此时就可以将两个Pod划分到不同的namespace下。kubernetes通过将集群内部的资源分配到不同的Namespace中，可以形成逻辑上的"组"，以方便不同的组的资源进行隔离使用和管理。
+
+可以通过kubernetes的授权机制，将不同的namespace交给不同租户进行管理，这样就实现了多租户的资源隔离。此时还能结合kubernetes的资源配额机制，限定不同租户能占用的资源，例如CPU使用量、内存使用量等等，来实现租户可用资源的管理。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDc4NTA5NCw0MzU4MjkxMTgsLTk5Mj
-g0OTQzLC0yMTkyODYyNzIsMTE5OTE3NjE0MywtODM4MDk1NTUz
-LDE0OTgyODMzODVdfQ==
+eyJoaXN0b3J5IjpbLTE5MjUyODEwMDgsMTU5MDc4NTA5NCw0Mz
+U4MjkxMTgsLTk5Mjg0OTQzLC0yMTkyODYyNzIsMTE5OTE3NjE0
+MywtODM4MDk1NTUzLDE0OTgyODMzODVdfQ==
 -->
