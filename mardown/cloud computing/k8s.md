@@ -290,10 +290,47 @@ kube-system       Active   45h     #  所有由Kubernetes系统创建的资源�
 
 
 下面来看namespace资源的具体操作：	
-``
+# 1 查看所有的ns  命令：kubectl get ns
+[root@master ~]# kubectl get ns
+NAME              STATUS   AGE
+default           Active   45h
+kube-node-lease   Active   45h
+kube-public       Active   45h 
+kube-system       Active   45h 
+# 2 查看指定的ns   命令：kubectl get ns ns名称
+[root@master ~]# kubectl get ns default
+NAME      STATUS   AGE
+default   Active   45h
+# 3 指定输出格式  命令：kubectl get ns ns名称  -o 格式参数
+# kubernetes支持的格式有很多，比较常见的是wide、json、yaml
+[root@master ~]# kubectl get ns default -o yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+ creationTimestamp: "2021-05-08T04:44:16Z"
+ name: default
+ resourceVersion: "151"
+ selfLink: /api/v1/namespaces/default
+ uid: 7405f73a-e486-43d4-9db6-145f1409f090
+spec:
+ finalizers:
+ - kubernetes
+status:
+ phase: Active
+  
+# 4 查看ns详情  命令：kubectl describe ns ns名称
+[root@master ~]# kubectl describe ns default
+Name:         default
+Labels:       <none>
+Annotations:  <none>
+Status:       Active  # Active 命名空间正在使用中  Terminating 正在删除命名空间
+# ResourceQuota 针对namespace做的资源限制
+# LimitRange针对namespace中的每个组件做的资源限制
+No resource quota.
+No LimitRange resource.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODkyOTY2NiwtNTE3NzU3NTU5LC0zNj
-kzOTA3OTEsLTE5MjUyODEwMDgsMTU5MDc4NTA5NCw0MzU4Mjkx
-MTgsLTk5Mjg0OTQzLC0yMTkyODYyNzIsMTE5OTE3NjE0MywtOD
-M4MDk1NTUzLDE0OTgyODMzODVdfQ==
+eyJoaXN0b3J5IjpbODY1OTA2OTMxLC01MTc3NTc1NTksLTM2OT
+M5MDc5MSwtMTkyNTI4MTAwOCwxNTkwNzg1MDk0LDQzNTgyOTEx
+OCwtOTkyODQ5NDMsLTIxOTI4NjI3MiwxMTk5MTc2MTQzLC04Mz
+gwOTU1NTMsMTQ5ODI4MzM4NV19
 -->
