@@ -1,4 +1,12 @@
-重新init 先执行 kubeadm rese
+kubeadm init \
+ --apiserver-advertise-address=192.168.88.100  \
+ --image-repository  registry.aliyuncs.com/google_containers  \
+ --kubernetes-version=v1.17.4  \
+ --service-cidr=10.96.0.0/12  \
+ --pod-network-cidr=10.244.0.0/16
+ 
+`kubectl apply -f `
+重新init 先执行 kubeadm reset
 
 
 ## 三
@@ -243,6 +251,7 @@ spec:
  如果资源不存在，就创建，相当于  kubectl  create
  如果资源已存在，就更新，相当于  kubectl  patch
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Mjg0OTQzLC0yMTkyODYyNzIsMTE5OT
-E3NjE0MywtODM4MDk1NTUzLDE0OTgyODMzODVdfQ==
+eyJoaXN0b3J5IjpbNDM1ODI5MTE4LC05OTI4NDk0MywtMjE5Mj
+g2MjcyLDExOTkxNzYxNDMsLTgzODA5NTU1MywxNDk4MjgzMzg1
+XX0=
 -->
