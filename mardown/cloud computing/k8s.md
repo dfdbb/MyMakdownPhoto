@@ -277,8 +277,19 @@ Namespace是kubernetes系统中的一种非常重要资源，它的主要作用�
 可以通过kubernetes的授权机制，将不同的namespace交给不同租户进行管理，这样就实现了多租户的资源隔离。此时还能结合kubernetes的资源配额机制，限定不同租户能占用的资源，例如CPU使用量、内存使用量等等，来实现租户可用资源的管理。
 
 ![](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/09/30/7tHrtju5Hwoo96zF.png)
+
+
+kubernetes在集群启动之后，会默认创建几个namespace
+
+`[root@master ~]# kubectl  get namespace
+NAME              STATUS   AGE
+default           Active   45h     #  所有未指定Namespace的对象都会被分配在default命名空间
+kube-node-lease   Active   45h     #  集群节点之间的心跳维护，v1.13开始引入
+kube-public       Active   45h     #  此命名空间下的资源可以被所有人访问（包括未认证用户）
+kube-system       Active   45h     #  所有由Kubernetes系统创建的资源都处于这个命名空间`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTM5MDc5MSwtMTkyNTI4MTAwOCwxNT
-kwNzg1MDk0LDQzNTgyOTExOCwtOTkyODQ5NDMsLTIxOTI4NjI3
-MiwxMTk5MTc2MTQzLC04MzgwOTU1NTMsMTQ5ODI4MzM4NV19
+eyJoaXN0b3J5IjpbLTUxNzc1NzU1OSwtMzY5MzkwNzkxLC0xOT
+I1MjgxMDA4LDE1OTA3ODUwOTQsNDM1ODI5MTE4LC05OTI4NDk0
+MywtMjE5Mjg2MjcyLDExOTkxNzYxNDMsLTgzODA5NTU1MywxND
+k4MjgzMzg1XX0=
 -->
