@@ -250,8 +250,24 @@ spec:
  使用apply操作资源：
  如果资源不存在，就创建，相当于  kubectl  create
  如果资源已存在，就更新，相当于  kubectl  patch
+
+
+>扩展：kubectl可以在node节点上运行吗 ?
+
+kubectl的运行是需要进行配置的，它的配置文件是$HOME/.kube，如果想要在node节点运行此命令，需要将master上的.kube文件复制到node节点上，即在master节点上执行下面操作：
+`scp  -r  HOME/.kube   node1: HOME/`
+
+
+>  使用推荐: 三种方式应该怎么用 ?
+
+
+创建/更新资源 使用声明式对象配置 kubectl apply -f XXX.yaml
+
+删除资源 使用命令式对象配置 kubectl delete -f XXX.yaml
+
+查询资源 使用命令式对象管理 kubectl get(describe) 资源名称
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1ODI5MTE4LC05OTI4NDk0MywtMjE5Mj
-g2MjcyLDExOTkxNzYxNDMsLTgzODA5NTU1MywxNDk4MjgzMzg1
-XX0=
+eyJoaXN0b3J5IjpbMTU5MDc4NTA5NCw0MzU4MjkxMTgsLTk5Mj
+g0OTQzLC0yMTkyODYyNzIsMTE5OTE3NjE0MywtODM4MDk1NTUz
+LDE0OTgyODMzODVdfQ==
 -->
