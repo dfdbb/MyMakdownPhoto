@@ -276,9 +276,9 @@ Namespace是kubernetes系统中的一种非常重要资源，它的主要作用�
 
 可以通过kubernetes的授权机制，将不同的namespace交给不同租户进行管理，这样就实现了多租户的资源隔离。此时还能结合kubernetes的资源配额机制，限定不同租户能占用的资源，例如CPU使用量、内存使用量等等，来实现租户可用资源的管理。
 
-
+![](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/09/30/7tHrtju5Hwoo96zF.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUyODEwMDgsMTU5MDc4NTA5NCw0Mz
-U4MjkxMTgsLTk5Mjg0OTQzLC0yMTkyODYyNzIsMTE5OTE3NjE0
-MywtODM4MDk1NTUzLDE0OTgyODMzODVdfQ==
+eyJoaXN0b3J5IjpbLTM2OTM5MDc5MSwtMTkyNTI4MTAwOCwxNT
+kwNzg1MDk0LDQzNTgyOTExOCwtOTkyODQ5NDMsLTIxOTI4NjI3
+MiwxMTk5MTc2MTQzLC04MzgwOTU1NTMsMTQ5ODI4MzM4NV19
 -->
