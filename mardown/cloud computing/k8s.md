@@ -328,9 +328,11 @@ Status:       Active  # Active 命名空间正在使用中  Terminating 正在�
 # LimitRange针对namespace中的每个组件做的资源限制
 No resource quota.
 No LimitRange resource.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1OTA2OTMxLC01MTc3NTc1NTksLTM2OT
-M5MDc5MSwtMTkyNTI4MTAwOCwxNTkwNzg1MDk0LDQzNTgyOTEx
-OCwtOTkyODQ5NDMsLTIxOTI4NjI3MiwxMTk5MTc2MTQzLC04Mz
-gwOTU1NTMsMTQ5ODI4MzM4NV19
+eyJoaXN0b3J5IjpbMTA3ODM0Nzg1NSw4NjU5MDY5MzEsLTUxNz
+c1NzU1OSwtMzY5MzkwNzkxLC0xOTI1MjgxMDA4LDE1OTA3ODUw
+OTQsNDM1ODI5MTE4LC05OTI4NDk0MywtMjE5Mjg2MjcyLDExOT
+kxNzYxNDMsLTgzODA5NTU1MywxNDk4MjgzMzg1XX0=
 -->
