@@ -9,6 +9,10 @@ kubeadm init \
 重新init 先执行 kubeadm reset
 
 
+
+
+![](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/10/06/Y9J1aFf8bDX2OKmf.png)
+
 ## 三
 
 ### 3.1 资源管理介绍 
@@ -331,8 +335,9 @@ No LimitRange resource.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODM0Nzg1NSw4NjU5MDY5MzEsLTUxNz
-c1NzU1OSwtMzY5MzkwNzkxLC0xOTI1MjgxMDA4LDE1OTA3ODUw
-OTQsNDM1ODI5MTE4LC05OTI4NDk0MywtMjE5Mjg2MjcyLDExOT
-kxNzYxNDMsLTgzODA5NTU1MywxNDk4MjgzMzg1XX0=
+eyJoaXN0b3J5IjpbLTEyNzk3NDExNjEsMTA3ODM0Nzg1NSw4Nj
+U5MDY5MzEsLTUxNzc1NzU1OSwtMzY5MzkwNzkxLC0xOTI1Mjgx
+MDA4LDE1OTA3ODUwOTQsNDM1ODI5MTE4LC05OTI4NDk0MywtMj
+E5Mjg2MjcyLDExOTkxNzYxNDMsLTgzODA5NTU1MywxNDk4Mjgz
+Mzg1XX0=
 -->
