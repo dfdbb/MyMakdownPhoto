@@ -13,6 +13,10 @@ kubeadm init \
 
 ![](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/10/06/Y9J1aFf8bDX2OKmf.png)
 
+
+
+![](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/10/06/yPRUPjSN6e4TYUbf.png)
+
 ## 三
 
 ### 3.1 资源管理介绍 
@@ -335,9 +339,9 @@ No LimitRange resource.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzk3NDExNjEsMTA3ODM0Nzg1NSw4Nj
-U5MDY5MzEsLTUxNzc1NzU1OSwtMzY5MzkwNzkxLC0xOTI1Mjgx
-MDA4LDE1OTA3ODUwOTQsNDM1ODI5MTE4LC05OTI4NDk0MywtMj
-E5Mjg2MjcyLDExOTkxNzYxNDMsLTgzODA5NTU1MywxNDk4Mjgz
-Mzg1XX0=
+eyJoaXN0b3J5IjpbMTU1MjUwOTM5MCwtMTI3OTc0MTE2MSwxMD
+c4MzQ3ODU1LDg2NTkwNjkzMSwtNTE3NzU3NTU5LC0zNjkzOTA3
+OTEsLTE5MjUyODEwMDgsMTU5MDc4NTA5NCw0MzU4MjkxMTgsLT
+k5Mjg0OTQzLC0yMTkyODYyNzIsMTE5OTE3NjE0MywtODM4MDk1
+NTUzLDE0OTgyODMzODVdfQ==
 -->
