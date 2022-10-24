@@ -26,11 +26,21 @@
 ```
  ssh-keygen
 ```
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/10/24/xWifOhO4rToi1Ujf.png)
 分发密钥
 ```
 ssh-copy-id  root@k8snode1
 
 ssh-copy-id  root@k8snode2
+```
+
+5.ssh登录测试：
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/10/24/Xl5PFDrXC03nLlMk.png)
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/10/24/xP9Ze96au4CwrrrI.png)
+
+
+
+### 集群网络
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDgzMDgwMTBdfQ==
+eyJoaXN0b3J5IjpbMzc3Nzk3MjgyXX0=
 -->
