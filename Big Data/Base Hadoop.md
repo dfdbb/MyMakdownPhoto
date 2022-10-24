@@ -12,10 +12,10 @@ yum install -y java-1.8.0-openjdk
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/fjoH6RuvFfseUo9c.png)
 
 ### 配置JAVA_HOME
-
+修改 .
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc1MzgwMTE5LDE2MTEzNDcwMzcsLTIwOD
-g3NDY2MTIsMTQ1MjI5NjI5MV19
+eyJoaXN0b3J5IjpbLTE5NTkzNTMzNzgsMTYxMTM0NzAzNywtMj
+A4ODc0NjYxMiwxNDUyMjk2MjkxXX0=
 -->
