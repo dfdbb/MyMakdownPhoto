@@ -17,9 +17,10 @@
 ```
 
 3.检查网络连接是否正常：
-[图片上传失败...(image-Mbol8dEzyR7NfOo3)]
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/10/24/818h4JmQOGFhzUPH.png)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4NzAzMDEzXX0=
+eyJoaXN0b3J5IjpbMTI5Mzc0OTk3NV19
 -->
