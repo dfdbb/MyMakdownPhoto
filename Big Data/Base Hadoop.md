@@ -34,11 +34,13 @@ vim  .bashrc
 ### 安装hadoop
 1.使用fpt上传hadoop包至  master 节点
 
+2.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyOTUxNDA5LDExNTAxMzA4MTUsMTYxMT
-M0NzAzNywtMjA4ODc0NjYxMiwxNDUyMjk2MjkxXX0=
+eyJoaXN0b3J5IjpbMTMyNDgwMjkxNSw0NTI5NTE0MDksMTE1MD
+EzMDgxNSwxNjExMzQ3MDM3LC0yMDg4NzQ2NjEyLDE0NTIyOTYy
+OTFdfQ==
 -->
