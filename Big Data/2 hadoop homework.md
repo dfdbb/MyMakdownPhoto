@@ -40,7 +40,7 @@ ssh-copy-id  root@k8snode2
 
 
 
-### 集群网络
+### 集群网络配置结束
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3Nzk3MjgyXX0=
+eyJoaXN0b3J5IjpbNzU1NjE5NDEzXX0=
 -->
