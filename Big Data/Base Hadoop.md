@@ -31,10 +31,14 @@ vim  .bashrc
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/sSDcpD8iXoQEzqz5.png)
 
 
+### 安装hadoop
+1.使用fpt上传hadoop包至  master 节点
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDEzMDgxNSwxNjExMzQ3MDM3LC0yMD
-g4NzQ2NjEyLDE0NTIyOTYyOTFdfQ==
+eyJoaXN0b3J5IjpbNDUyOTUxNDA5LDExNTAxMzA4MTUsMTYxMT
+M0NzAzNywtMjA4ODc0NjYxMiwxNDUyMjk2MjkxXX0=
 -->
