@@ -33,14 +33,14 @@ vim  .bashrc
 
 ### 安装hadoop
 1.使用fpt上传hadoop包至  master 节点
-
-2.
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/GzAB4nIpOFN3iE6p.png)2.解压hadoop包,改名为 hadoop, 在 /  下新建 soft 目录 将hadoop 移动 至 /soft/下
+```shell
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDgwMjkxNSw0NTI5NTE0MDksMTE1MD
-EzMDgxNSwxNjExMzQ3MDM3LC0yMDg4NzQ2NjEyLDE0NTIyOTYy
-OTFdfQ==
+eyJoaXN0b3J5IjpbNDQzODY4NjE5LDQ1Mjk1MTQwOSwxMTUwMT
+MwODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5
+MV19
 -->
