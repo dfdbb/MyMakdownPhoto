@@ -35,12 +35,16 @@ vim  .bashrc
 1.使用fpt上传hadoop包至  master 节点
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/GzAB4nIpOFN3iE6p.png)2.解压hadoop包,改名为 hadoop, 在 /  下新建 soft 目录 将hadoop 移动 至 /soft/下
 ```shell
+tar -zxvf hadoop-3.2.0.tar.gz
+cd /
+mkdir /soft
+mv hadoop-3.2.0.tar.gz hadoop
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzODY4NjE5LDQ1Mjk1MTQwOSwxMTUwMT
+eyJoaXN0b3J5IjpbMTAyODc2MjQ1LDQ1Mjk1MTQwOSwxMTUwMT
 MwODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5
 MV19
 -->
