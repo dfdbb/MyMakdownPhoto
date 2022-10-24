@@ -20,6 +20,8 @@ vim  .bashrc
 添加如下 内容：
 > export JAVA_HOME=/usr/lib/jvm/default-java
 
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/gwZF0dpKoVeMQVTu.png)
+
 让操作生效：
 >  source ~/.bashrc
 
@@ -30,7 +32,9 @@ vim  .bashrc
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDg2MDI3MCwxNjExMzQ3MDM3LC0yMD
+eyJoaXN0b3J5IjpbMTE1MDEzMDgxNSwxNjExMzQ3MDM3LC0yMD
 g4NzQ2NjEyLDE0NTIyOTYyOTFdfQ==
 -->
