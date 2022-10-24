@@ -46,8 +46,7 @@ export HADOOP_HOME=/usr/local/hadoop
 export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 ```
 
-4.进入/soft/hadoop/etc/hadoop 修改配置文件 
-
+4.进入/soft/hadoop/etc/hadoop 修改配置文件  workers、core-site.xml、[hdfs](https://so.csdn.net/so/search?q=hdfs&spm=1001.2101.3001.7020)-site.xml、mapred-site.xml、yarn-site.xml。
 - 
 
 
@@ -56,7 +55,7 @@ export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjM0OTczMiw0NTI5NTE0MDksMTE1MD
-EzMDgxNSwxNjExMzQ3MDM3LC0yMDg4NzQ2NjEyLDE0NTIyOTYy
-OTFdfQ==
+eyJoaXN0b3J5IjpbMTY4MjQ4OTY1LDQ1Mjk1MTQwOSwxMTUwMT
+MwODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5
+MV19
 -->
