@@ -41,14 +41,14 @@ mv hadoop-3.2.0.tar.gz  /soft/hadoop
 chown -R hadoop ./hadoop # 修改文件权限
 ```
 3.修改 .bashrc 文件 ，添加如下 内容：
-> ```
+ ```
 export HADOOP_HOME=/usr/local/hadoop
 export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 ```
 
 4.进入/soft/hadoop/etc/hadoop 修改配置文件 
 
--
+- 
 
 
 
@@ -56,7 +56,7 @@ export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1NDc4MTA0LDQ1Mjk1MTQwOSwxMTUwMT
-MwODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5
-MV19
+eyJoaXN0b3J5IjpbLTE3NjM0OTczMiw0NTI5NTE0MDksMTE1MD
+EzMDgxNSwxNjExMzQ3MDM3LC0yMDg4NzQ2NjEyLDE0NTIyOTYy
+OTFdfQ==
 -->
