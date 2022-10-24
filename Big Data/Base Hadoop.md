@@ -68,8 +68,11 @@ k8snode2
                 <value>file:/soft/hadoop/tmp</value>
         </property>
 ```
+
+4.修改hdfs-site.xml文件
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3MzU2NjMwLDIxNDczNDA2NjUsNDUyOT
+eyJoaXN0b3J5IjpbNDMxODAzNzc4LDIxNDczNDA2NjUsNDUyOT
 UxNDA5LDExNTAxMzA4MTUsMTYxMTM0NzAzNywtMjA4ODc0NjYx
 MiwxNDUyMjk2MjkxXX0=
 -->
