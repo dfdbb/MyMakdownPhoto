@@ -49,16 +49,21 @@ export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 ## hadoop 配置的修改
 1.进入/soft/hadoop/etc/hadoop 修改配置文件  workers、core-site.xml、hdfs·site.xml、mapred-site.xml、yarn-site.xml。
 
-2.修改workers，该文件内容可以指定某几个节点作为数据节点，默认为localhost
+2.修改workers，该文件内容可以指定某几个节点作为数据节点，默认为localhost,将node1,node2,master 添加进去
 
-
+```shll
+k8smaster
+k8snode1
+k8snode2
+```
+3.修改 core-site.xml
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDQ1NTIzLDQ1Mjk1MTQwOSwxMTUwMT
-MwODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5
-MV19
+eyJoaXN0b3J5IjpbMjE0NzM0MDY2NSw0NTI5NTE0MDksMTE1MD
+EzMDgxNSwxNjExMzQ3MDM3LC0yMDg4NzQ2NjEyLDE0NTIyOTYy
+OTFdfQ==
 -->
