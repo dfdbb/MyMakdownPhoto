@@ -20,11 +20,17 @@ vim  .bashrc
 添加如下 内容：
 > export JAVA_HOME=/usr/lib/jvm/default-java
 
+让操作生效：
+>  source ~/.bashrc
 
+查看java_home:
+>  echo $JAVA_HOME
+
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/sSDcpD8iXoQEzqz5.png)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4NDkzNDc5LDE2MTEzNDcwMzcsLTIwOD
-g3NDY2MTIsMTQ1MjI5NjI5MV19
+eyJoaXN0b3J5IjpbLTM5MDg2MDI3MCwxNjExMzQ3MDM3LC0yMD
+g4NzQ2NjEyLDE0NTIyOTYyOTFdfQ==
 -->
