@@ -19,8 +19,18 @@
 3.检查网络连接是否正常：
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/10/24/818h4JmQOGFhzUPH.png)
 
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/10/24/i8EPQHwgpd0FUndZ.png)
 
+4.ssh 免密登录
+获得密钥
+```
+ ssh-keygen
+```
+分发密钥
+```
+ssh-copy-id  root@k8snode1
 
+ssh-copy-id  root@k8snode2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Mzc0OTk3NV19
+eyJoaXN0b3J5IjpbLTExMDgzMDgwMTBdfQ==
 -->
