@@ -7,7 +7,13 @@
 ```
 yum install -y java-1.8.0-openjdk
 ```
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/objMw5ayGINvnmwM.png)
+安装成功：
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/qHiENAc6skI5ryyk.png)
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODY3MjU5MSwtMjA4ODc0NjYxMiwxND
+eyJoaXN0b3J5IjpbMTYxMTM0NzAzNywtMjA4ODc0NjYxMiwxND
 UyMjk2MjkxXX0=
 -->
