@@ -58,12 +58,18 @@ k8snode2
 ```
 3.修改 core-site.xml
 
-
-
-
-
+```
+		<property>
+                <name>fs.defaultFS</name>
+                <value>hdfs://k8smaster:9000</value>
+        </property>
+        <property>
+                <name>hadoop.tmp.dir</name>
+                <value>file:/soft/hadoop/tmp</value>
+        </property>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzM0MDY2NSw0NTI5NTE0MDksMTE1MD
-EzMDgxNSwxNjExMzQ3MDM3LC0yMDg4NzQ2NjEyLDE0NTIyOTYy
-OTFdfQ==
+eyJoaXN0b3J5IjpbMjQ3MzU2NjMwLDIxNDczNDA2NjUsNDUyOT
+UxNDA5LDExNTAxMzA4MTUsMTYxMTM0NzAzNywtMjA4ODc0NjYx
+MiwxNDUyMjk2MjkxXX0=
 -->
