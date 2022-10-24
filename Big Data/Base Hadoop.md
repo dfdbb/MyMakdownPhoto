@@ -12,10 +12,19 @@ yum install -y java-1.8.0-openjdk
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/fjoH6RuvFfseUo9c.png)
 
 ### 配置JAVA_HOME
-修改 .
+修改 .bashrc 配置文件,添加 JAVA_HOME 
+在root用户 ~目录下
+```shell
+vim  .bashrc
+```
+添加如下 内容：
+> export JAVA_HOME=/usr/lib/jvm/default-java
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTkzNTMzNzgsMTYxMTM0NzAzNywtMj
-A4ODc0NjYxMiwxNDUyMjk2MjkxXX0=
+eyJoaXN0b3J5IjpbNjI4NDkzNDc5LDE2MTEzNDcwMzcsLTIwOD
+g3NDY2MTIsMTQ1MjI5NjI5MV19
 -->
