@@ -33,18 +33,23 @@ vim  .bashrc
 
 ### 安装hadoop
 1.使用fpt上传hadoop包至  master 节点
-![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/GzAB4nIpOFN3iE6p.png)2.解压hadoop包,改名为 hadoop, 在 /  下新建 soft 目录 将hadoop 移动 至 /soft/下
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/GzAB4nIpOFN3iE6p.png)2.解压hadoop包,改名为 hadoop, 在 /  下新建 soft 目录 将hadoop 移动 至 /soft/下 修改文件权限
 ```shell
 tar -zxvf hadoop-3.2.0.tar.gz
-cd /
 mkdir /soft
-mv hadoop-3.2.0.tar.gz hadoop
+mv hadoop-3.2.0.tar.gz  /soft/hadoop
+chown -R hadoop ./hadoop # 修改文件权限
+```
+
+3。
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODc2MjQ1LDQ1Mjk1MTQwOSwxMTUwMT
-MwODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5
-MV19
+eyJoaXN0b3J5IjpbMTA1NTc5MDU1Miw0NTI5NTE0MDksMTE1MD
+EzMDgxNSwxNjExMzQ3MDM3LC0yMDg4NzQ2NjEyLDE0NTIyOTYy
+OTFdfQ==
 -->
