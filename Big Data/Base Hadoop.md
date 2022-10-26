@@ -149,11 +149,11 @@ sudo rm -r ./hadoop/tmp     # 删除 Hadoop 临时文件
 sudo rm -r ./hadoop/logs/*   # 删除日志文件
 tar -zcf ./hadoop.master.tar.gz hadoop  # 先压缩再复制
 cd ~
-scp hadoop.master.tar.gz hadoopWyc2:/home/
-scp hadoop.master.tar.gz hadoopWyc3:/home/
+scp hadoop.master.tar.gz k8snode1:/home/
+scp hadoop.master.tar.gz k8snode2:/home/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyNzQ0MzEzLDE5NjY3NTQ0MDIsMjE0Nz
+eyJoaXN0b3J5IjpbMTU2NDM4Njc1LDE5NjY3NTQ0MDIsMjE0Nz
 M0MDY2NSw0NTI5NTE0MDksMTE1MDEzMDgxNSwxNjExMzQ3MDM3
 LC0yMDg4NzQ2NjEyLDE0NTIyOTYyOTFdfQ==
 -->
