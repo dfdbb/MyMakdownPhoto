@@ -70,8 +70,11 @@ k8snode2
 ```
 
 4.修改hdfs-site.xml文件
-> 
-添加如下内容：
+> dfs.secondary.http.address：secondarynamenode运行节点的信息，应该和namenode存放在不同节点
+dfs.repliction：hdfs的副本数设置，默认为3
+dfs.namenode.name.dir：namenode数据的存放位置，元数据存放位置
+dfs.datanode.data.dir：datanode数据的存放位置，block块存放的位置
+
 
 ```shell
 		<property>
@@ -84,16 +87,18 @@ k8snode2
         </property>
         <property>
                 <name>dfs.namenode.name.dir</name>
-                <value>file:/usr/local/hadoop/tmp/dfs/name</value>
+                <value>file:/soft/hadoop/tmp/dfs/name</value>
         </property>
         <property>
                 <name>dfs.datanode.data.dir</name>
-                <value>file:/usr/local/hadoop/tmp/dfs/data</value>
+                <value>file:/soft/hadoop/tmp/dfs/data</value>
         </property>
 ```
 
+#### 5. 修改mapred-site.xml文件
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjA0MTY3NCwxOTY2NzU0NDAyLDIxND
+eyJoaXN0b3J5IjpbLTI1NjUwNjk5NywxOTY2NzU0NDAyLDIxND
 czNDA2NjUsNDUyOTUxNDA5LDExNTAxMzA4MTUsMTYxMTM0NzAz
 NywtMjA4ODc0NjYxMiwxNDUyMjk2MjkxXX0=
 -->
