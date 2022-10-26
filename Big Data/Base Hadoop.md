@@ -166,9 +166,11 @@ chown -R root /soft/hadoop
 cd /usr/local/hadoop 
 ./bin/hdfs namenode -format
 ```
+当看到标白的这行时，证明
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/YdMXfvfLLQFH8dU6.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU3MjU2ODUsMjQ4MTU0NjIzLDEyNj
-UyMzQ4NSwxNzY5MTAxMTI1LDE5NjY3NTQ0MDIsMjE0NzM0MDY2
-NSw0NTI5NTE0MDksMTE1MDEzMDgxNSwxNjExMzQ3MDM3LC0yMD
-g4NzQ2NjEyLDE0NTIyOTYyOTFdfQ==
+eyJoaXN0b3J5IjpbLTczMTE1NTQ3NCwtMTU3NTcyNTY4NSwyND
+gxNTQ2MjMsMTI2NTIzNDg1LDE3NjkxMDExMjUsMTk2Njc1NDQw
+MiwyMTQ3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMwODE1LDE2MT
+EzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV19
 -->
