@@ -42,7 +42,7 @@ chown -R hadoop ./hadoop # 修改文件权限
 ```
 3.修改 .bashrc 文件 ，添加如下 内容：
  ```
-export HADOOP_HOME=/usr/local/hadoop
+export HADOOP_HOME=/soft/hadoop
 export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 ```
 
@@ -167,7 +167,8 @@ cd /usr/local/hadoop
 ./bin/hdfs namenode -format
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTIzNDg1LDE3NjkxMDExMjUsMTk2Nj
-c1NDQwMiwyMTQ3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMwODE1
-LDE2MTEzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV19
+eyJoaXN0b3J5IjpbMjQ4MTU0NjIzLDEyNjUyMzQ4NSwxNzY5MT
+AxMTI1LDE5NjY3NTQ0MDIsMjE0NzM0MDY2NSw0NTI5NTE0MDks
+MTE1MDEzMDgxNSwxNjExMzQ3MDM3LC0yMDg4NzQ2NjEyLDE0NT
+IyOTYyOTFdfQ==
 -->
