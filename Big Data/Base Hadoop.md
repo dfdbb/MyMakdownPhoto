@@ -70,9 +70,27 @@ k8snode2
 ```
 
 4.修改hdfs-site.xml文件
+```shell
+		<property>
+                <name>dfs.namenode.secondary.http-address</name>
+                <value>hadoopWyc2:50090</value>
+        </property>
+        <property>
+                <name>dfs.replication</name>
+                <value>3</value>
+        </property>
+        <property>
+                <name>dfs.namenode.name.dir</name>
+                <value>file:/usr/local/hadoop/tmp/dfs/name</value>
+        </property>
+        <property>
+                <name>dfs.datanode.data.dir</name>
+                <value>file:/usr/local/hadoop/tmp/dfs/data</value>
+        </property>
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxODAzNzc4LDIxNDczNDA2NjUsNDUyOT
-UxNDA5LDExNTAxMzA4MTUsMTYxMTM0NzAzNywtMjA4ODc0NjYx
-MiwxNDUyMjk2MjkxXX0=
+eyJoaXN0b3J5IjpbMTk2Njc1NDQwMiwyMTQ3MzQwNjY1LDQ1Mj
+k1MTQwOSwxMTUwMTMwODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2
+MTIsMTQ1MjI5NjI5MV19
 -->
