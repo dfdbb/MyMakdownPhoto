@@ -127,8 +127,23 @@ mapreduce.jobhistory.webapp.address：查看历史服务器已经运行完的Map
         </property> 
 ```
 
+6. 修改yarn-site.xml文件
+```
+<configuration>
+        <property>
+                <name>yarn.resourcemanager.hostname</name>
+                <value>hadoopWyc</value>
+        </property>
+        <property>
+                <name>yarn.nodemanager.aux-services</name>
+                <value>mapreduce_shuffle</value>
+        </property>
+</configuration>
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODU1NDY5LDE5NjY3NTQ0MDIsMjE0Nz
-M0MDY2NSw0NTI5NTE0MDksMTE1MDEzMDgxNSwxNjExMzQ3MDM3
-LC0yMDg4NzQ2NjEyLDE0NTIyOTYyOTFdfQ==
+eyJoaXN0b3J5IjpbLTE4NTQ3NTA4MzMsMTk2Njc1NDQwMiwyMT
+Q3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMwODE1LDE2MTEzNDcw
+MzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV19
 -->
