@@ -158,8 +158,11 @@ scp hadoop.master.tar.gz k8snode2:/home/
 tar -zxf /home/hadoop.master.tar.gz -C /soft
 chown -R root /soft/hadoop
 ```
+
+### hadoop初始化
+> HDFS初始化只能在主节点上进行
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjE5MzA1MywxNzY5MTAxMTI1LDE5Nj
+eyJoaXN0b3J5IjpbMTYzOTkxNTEwMCwxNzY5MTAxMTI1LDE5Nj
 Y3NTQ0MDIsMjE0NzM0MDY2NSw0NTI5NTE0MDksMTE1MDEzMDgx
 NSwxNjExMzQ3MDM3LC0yMDg4NzQ2NjEyLDE0NTIyOTYyOTFdfQ
 ==
