@@ -161,9 +161,13 @@ chown -R root /soft/hadoop
 
 ### hadoop初始化
 > HDFS初始化只能在主节点上进行
+
+```
+cd /usr/local/hadoop 
+./bin/hdfs namenode -format
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTkxNTEwMCwxNzY5MTAxMTI1LDE5Nj
-Y3NTQ0MDIsMjE0NzM0MDY2NSw0NTI5NTE0MDksMTE1MDEzMDgx
-NSwxNjExMzQ3MDM3LC0yMDg4NzQ2NjEyLDE0NTIyOTYyOTFdfQ
-==
+eyJoaXN0b3J5IjpbMTI2NTIzNDg1LDE3NjkxMDExMjUsMTk2Nj
+c1NDQwMiwyMTQ3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMwODE1
+LDE2MTEzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV19
 -->
