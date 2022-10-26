@@ -79,7 +79,7 @@ dfs.datanode.data.dir：datanode数据的存放位置，block块存放的位置
 ```shell
 		<property>
                 <name>dfs.namenode.secondary.http-address</name>
-                <value>master:50090</value>
+                <value>k8smaster:50090</value>
         </property>
         <property>
                 <name>dfs.replication</name>
@@ -107,7 +107,7 @@ mapreduce.jobhistory.webapp.address：查看历史服务器已经运行完的Map
         </property>
         <property>
                 <name>mapreduce.jobhistory.address</name>
-                <value>hadoopWyc:10020</value>
+                <value>k8smaster:10020</value>
         </property>
         <property>
                 <name>mapreduce.jobhistory.webapp.address</name>
@@ -115,20 +115,20 @@ mapreduce.jobhistory.webapp.address：查看历史服务器已经运行完的Map
         </property>
         <property>
                 <name>yarn.app.mapreduce.am.env</name>
-                <value>HADOOP_MAPRED_HOME=/usr/local/hadoop</value>
+                <value>HADOOP_MAPRED_HOME=/soft/hadoop</value>
         </property>
         <property>
                 <name>mapreduce.map.env</name>
-                <value>HADOOP_MAPRED_HOME=/usr/local/hadoop</value>
+                <value>HADOOP_MAPRED_HOME=/soft/hadoop</value>
         </property>
         <property>
                 <name>mapreduce.reduce.env</name>
-                <value>HADOOP_MAPRED_HOME=/usr/local/hadoop</value>
+                <value>HADOOP_MAPRED_HOME=/soft/hadoop</value>
         </property> 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzk1MDYxODEsMTk2Njc1NDQwMiwyMT
+eyJoaXN0b3J5IjpbLTE5MjU5MTgwNjksMTk2Njc1NDQwMiwyMT
 Q3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMwODE1LDE2MTEzNDcw
 MzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV19
 -->
