@@ -111,7 +111,7 @@ mapreduce.jobhistory.webapp.address：查看历史服务器已经运行完的Map
         </property>
         <property>
                 <name>mapreduce.jobhistory.webapp.address</name>
-                <value>hadoopWyc:19888</value>
+                <value>k8smaster:19888</value>
         </property>
         <property>
                 <name>yarn.app.mapreduce.am.env</name>
@@ -125,10 +125,10 @@ mapreduce.jobhistory.webapp.address：查看历史服务器已经运行完的Map
                 <name>mapreduce.reduce.env</name>
                 <value>HADOOP_MAPRED_HOME=/soft/hadoop</value>
         </property> 
-
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU5MTgwNjksMTk2Njc1NDQwMiwyMT
-Q3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMwODE1LDE2MTEzNDcw
-MzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV19
+eyJoaXN0b3J5IjpbLTIxODU1NDY5LDE5NjY3NTQ0MDIsMjE0Nz
+M0MDY2NSw0NTI5NTE0MDksMTE1MDEzMDgxNSwxNjExMzQ3MDM3
+LC0yMDg4NzQ2NjEyLDE0NTIyOTYyOTFdfQ==
 -->
