@@ -141,9 +141,10 @@ mapreduce.jobhistory.webapp.address：查看历史服务器已经运行完的Map
 </configuration>
 ```
 
+7.对上述文件进行修改后，将整个hadoop文件复制到各节点上
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQ3NTA4MzMsMTk2Njc1NDQwMiwyMT
+eyJoaXN0b3J5IjpbLTE4OTcxMjUyMjAsMTk2Njc1NDQwMiwyMT
 Q3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMwODE1LDE2MTEzNDcw
 MzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV19
 -->
