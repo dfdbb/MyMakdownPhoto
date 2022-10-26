@@ -153,12 +153,14 @@ scp hadoop.master.tar.gz k8snode1:/home/
 scp hadoop.master.tar.gz k8snode2:/home/
 ```
 
-在其他节点解压，安装
+在其他节点解压，授予权限
 ```
 tar -zxf /home/hadoop.master.tar.gz -C /soft
+chown -R root /soft/hadoop
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTEwMTEyNSwxOTY2NzU0NDAyLDIxND
-czNDA2NjUsNDUyOTUxNDA5LDExNTAxMzA4MTUsMTYxMTM0NzAz
-NywtMjA4ODc0NjYxMiwxNDUyMjk2MjkxXX0=
+eyJoaXN0b3J5IjpbLTk1NjE5MzA1MywxNzY5MTAxMTI1LDE5Nj
+Y3NTQ0MDIsMjE0NzM0MDY2NSw0NTI5NTE0MDksMTE1MDEzMDgx
+NSwxNjExMzQ3MDM3LC0yMDg4NzQ2NjEyLDE0NTIyOTYyOTFdfQ
+==
 -->
