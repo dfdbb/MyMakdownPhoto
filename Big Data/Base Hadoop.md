@@ -166,10 +166,14 @@ chown -R root /soft/hadoop
 cd /usr/local/hadoop 
 ./bin/hdfs namenode -format
 ```
-当看到标白的这行时，证明
+当看到标白的这行有有个successfully formatted说明初始化成功。
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/YdMXfvfLLQFH8dU6.png)
+
+
+## hadoop集群启动
+在ma
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTE1NTQ3NCwtMTU3NTcyNTY4NSwyND
+eyJoaXN0b3J5IjpbMTg4NTEwNDU5MSwtMTU3NTcyNTY4NSwyND
 gxNTQ2MjMsMTI2NTIzNDg1LDE3NjkxMDExMjUsMTk2Njc1NDQw
 MiwyMTQ3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMwODE1LDE2MT
 EzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV19
