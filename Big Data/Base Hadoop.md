@@ -171,9 +171,17 @@ cd /usr/local/hadoop
 
 
 ## hadoop集群启动
-在ma
+在master节点上执行以下命令：
+
+```
+cd /soft/hadoop
+./sbin/start-dfs.sh
+./sbin/start-yarn.sh
+./sbin/mr-jobhistory-daemon.sh start historyserver
+#这样我们就可以在相应机器的19888端口上打开历史服务器的WEB UI界面。可以查看已经运行完的作业情况
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTEwNDU5MSwtMTU3NTcyNTY4NSwyND
+eyJoaXN0b3J5IjpbLTg1ODAwNjA4NCwtMTU3NTcyNTY4NSwyND
 gxNTQ2MjMsMTI2NTIzNDg1LDE3NjkxMDExMjUsMTk2Njc1NDQw
 MiwyMTQ3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMwODE1LDE2MT
 EzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV19
