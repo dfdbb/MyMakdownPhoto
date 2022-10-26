@@ -28,7 +28,7 @@ vim  .bashrc
 查看java_home:
 >  echo $JAVA_HOME
 
-![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/sSDcpD8iXoQEzqz5.png)
+
 
 
 ### 安装hadoop
@@ -167,8 +167,8 @@ cd /usr/local/hadoop
 ./bin/hdfs namenode -format
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4MTU0NjIzLDEyNjUyMzQ4NSwxNzY5MT
-AxMTI1LDE5NjY3NTQ0MDIsMjE0NzM0MDY2NSw0NTI5NTE0MDks
-MTE1MDEzMDgxNSwxNjExMzQ3MDM3LC0yMDg4NzQ2NjEyLDE0NT
-IyOTYyOTFdfQ==
+eyJoaXN0b3J5IjpbLTE1NzU3MjU2ODUsMjQ4MTU0NjIzLDEyNj
+UyMzQ4NSwxNzY5MTAxMTI1LDE5NjY3NTQ0MDIsMjE0NzM0MDY2
+NSw0NTI5NTE0MDksMTE1MDEzMDgxNSwxNjExMzQ3MDM3LC0yMD
+g4NzQ2NjEyLDE0NTIyOTYyOTFdfQ==
 -->
