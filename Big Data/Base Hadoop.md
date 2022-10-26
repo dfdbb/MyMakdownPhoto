@@ -132,7 +132,7 @@ mapreduce.jobhistory.webapp.address：查看历史服务器已经运行完的Map
 <configuration>
         <property>
                 <name>yarn.resourcemanager.hostname</name>
-                <value>hadoopWyc</value>
+                <value>k8smaster</value>
         </property>
         <property>
                 <name>yarn.nodemanager.aux-services</name>
@@ -181,8 +181,9 @@ cd /soft/hadoop
 #这样我们就可以在相应机器的19888端口上打开历史服务器的WEB UI界面。可以查看已经运行完的作业情况
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODAwNjA4NCwtMTU3NTcyNTY4NSwyND
-gxNTQ2MjMsMTI2NTIzNDg1LDE3NjkxMDExMjUsMTk2Njc1NDQw
-MiwyMTQ3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMwODE1LDE2MT
-EzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV19
+eyJoaXN0b3J5IjpbLTE0OTMxMDI4OTYsLTg1ODAwNjA4NCwtMT
+U3NTcyNTY4NSwyNDgxNTQ2MjMsMTI2NTIzNDg1LDE3NjkxMDEx
+MjUsMTk2Njc1NDQwMiwyMTQ3MzQwNjY1LDQ1Mjk1MTQwOSwxMT
+UwMTMwODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5
+NjI5MV19
 -->
