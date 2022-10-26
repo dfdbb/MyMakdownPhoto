@@ -143,8 +143,17 @@ mapreduce.jobhistory.webapp.address：查看历史服务器已经运行完的Map
 
 7.对上述文件进行修改后，将整个hadoop文件复制到各节点上
 
+```
+cd /soft
+sudo rm -r ./hadoop/tmp     # 删除 Hadoop 临时文件
+sudo rm -r ./hadoop/logs/*   # 删除日志文件
+tar -zcf ~/hadoop.master.tar.gz hadoop  # 先压缩再复制
+cd ~
+scp hadoop.master.tar.gz hadoopWyc2:/home/
+scp hadoop.master.tar.gz hadoopWyc3:/home/
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTcxMjUyMjAsMTk2Njc1NDQwMiwyMT
-Q3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMwODE1LDE2MTEzNDcw
-MzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV19
+eyJoaXN0b3J5IjpbMTQ2ODIxNjEzNywxOTY2NzU0NDAyLDIxND
+czNDA2NjUsNDUyOTUxNDA5LDExNTAxMzA4MTUsMTYxMTM0NzAz
+NywtMjA4ODc0NjYxMiwxNDUyMjk2MjkxXX0=
 -->
