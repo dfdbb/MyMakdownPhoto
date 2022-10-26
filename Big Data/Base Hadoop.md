@@ -95,10 +95,40 @@ dfs.datanode.data.dir：datanode数据的存放位置，block块存放的位置
         </property>
 ```
 
-#### 5. 修改mapred-site.xml文件
+5. 修改mapred-site.xml文件
+>mapreduce.framework.name：指定mapreduce框架为yarn方式
+mapreduce.jobhistory.address：指定历史服务器的地址和端口
+mapreduce.jobhistory.webapp.address：查看历史服务器已经运行完的Mapreduce作业记录的web地址，需要启动该服务才行
 
+```
+        <property>
+                <name>mapreduce.framework.name</name>
+                <value>yarn</value>
+        </property>
+        <property>
+                <name>mapreduce.jobhistory.address</name>
+                <value>hadoopWyc:10020</value>
+        </property>
+        <property>
+                <name>mapreduce.jobhistory.webapp.address</name>
+                <value>hadoopWyc:19888</value>
+        </property>
+        <property>
+                <name>yarn.app.mapreduce.am.env</name>
+                <value>HADOOP_MAPRED_HOME=/usr/local/hadoop</value>
+        </property>
+        <property>
+                <name>mapreduce.map.env</name>
+                <value>HADOOP_MAPRED_HOME=/usr/local/hadoop</value>
+        </property>
+        <property>
+                <name>mapreduce.reduce.env</name>
+                <value>HADOOP_MAPRED_HOME=/usr/local/hadoop</value>
+        </property> 
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjUwNjk5NywxOTY2NzU0NDAyLDIxND
-czNDA2NjUsNDUyOTUxNDA5LDExNTAxMzA4MTUsMTYxMTM0NzAz
-NywtMjA4ODc0NjYxMiwxNDUyMjk2MjkxXX0=
+eyJoaXN0b3J5IjpbLTEyNzk1MDYxODEsMTk2Njc1NDQwMiwyMT
+Q3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMwODE1LDE2MTEzNDcw
+MzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV19
 -->
