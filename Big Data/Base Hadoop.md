@@ -70,10 +70,13 @@ k8snode2
 ```
 
 4.修改hdfs-site.xml文件
+> 
+添加如下内容：
+
 ```shell
 		<property>
                 <name>dfs.namenode.secondary.http-address</name>
-                <value>hadoopWyc2:50090</value>
+                <value>master:50090</value>
         </property>
         <property>
                 <name>dfs.replication</name>
@@ -90,7 +93,7 @@ k8snode2
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Njc1NDQwMiwyMTQ3MzQwNjY1LDQ1Mj
-k1MTQwOSwxMTUwMTMwODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2
-MTIsMTQ1MjI5NjI5MV19
+eyJoaXN0b3J5IjpbLTkwMjA0MTY3NCwxOTY2NzU0NDAyLDIxND
+czNDA2NjUsNDUyOTUxNDA5LDExNTAxMzA4MTUsMTYxMTM0NzAz
+NywtMjA4ODc0NjYxMiwxNDUyMjk2MjkxXX0=
 -->
