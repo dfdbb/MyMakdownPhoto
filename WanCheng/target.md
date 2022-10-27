@@ -1,4 +1,4 @@
-# 弯沉数据平台开发目标
+# 弯沉数据平台开发方向
 
 2022/10/27 
 - 登录拦截器
@@ -11,6 +11,6 @@
 - 逻辑删除
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI0OTkxNTIsMTEzMzE3OTA3OCwtOD
+eyJoaXN0b3J5IjpbLTE3MTI4NDAxNDMsMTEzMzE3OTA3OCwtOD
 gwNjIyNjg3XX0=
 -->
