@@ -184,15 +184,17 @@ cd /usr/local/hadoop
 访问web界面：
 http://master:9870
 http://master:9870/dfshealth.html#tab-overview
+
+可自行
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/YJ0IaeoKktSdOS8L.png)
 
 
 # hadoop集群搭建成功 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODM2OTE2NiwtNDczODA3NDI3LDE1Mz
-c2Nzg0NzQsLTE0OTMxMDI4OTYsLTg1ODAwNjA4NCwtMTU3NTcy
-NTY4NSwyNDgxNTQ2MjMsMTI2NTIzNDg1LDE3NjkxMDExMjUsMT
-k2Njc1NDQwMiwyMTQ3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMw
-ODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV
-19
+eyJoaXN0b3J5IjpbLTgwMDA3ODQ3LC00NzM4MDc0MjcsMTUzNz
+Y3ODQ3NCwtMTQ5MzEwMjg5NiwtODU4MDA2MDg0LC0xNTc1NzI1
+Njg1LDI0ODE1NDYyMywxMjY1MjM0ODUsMTc2OTEwMTEyNSwxOT
+Y2NzU0NDAyLDIxNDczNDA2NjUsNDUyOTUxNDA5LDExNTAxMzA4
+MTUsMTYxMTM0NzAzNywtMjA4ODc0NjYxMiwxNDUyMjk2MjkxXX
+0=
 -->
