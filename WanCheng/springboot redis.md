@@ -22,6 +22,7 @@ public boolean redisdelete(@PathVariable("key") String key){
     redisTemplate.delete(key);  
  return redisTemplate.hasKey(key);  
 }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTAzNzIzNiwtMTMzODk0NDAyNl19
+eyJoaXN0b3J5IjpbMTk0MDc2NTI2NiwtMTMzODk0NDAyNl19
 -->
