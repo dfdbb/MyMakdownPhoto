@@ -181,12 +181,16 @@ cd /usr/local/hadoop
 运行结果如下:
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/mk6FyyDlOy5WwIMK.png)
 
+访问web界面：
+![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/YJ0IaeoKktSdOS8L.png)
 
 
+# hadoop集群搭建成功 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MzgwNzQyNywxNTM3Njc4NDc0LC0xND
-kzMTAyODk2LC04NTgwMDYwODQsLTE1NzU3MjU2ODUsMjQ4MTU0
-NjIzLDEyNjUyMzQ4NSwxNzY5MTAxMTI1LDE5NjY3NTQ0MDIsMj
-E0NzM0MDY2NSw0NTI5NTE0MDksMTE1MDEzMDgxNSwxNjExMzQ3
-MDM3LC0yMDg4NzQ2NjEyLDE0NTIyOTYyOTFdfQ==
+eyJoaXN0b3J5IjpbLTg1ODkwMTYzOSwtNDczODA3NDI3LDE1Mz
+c2Nzg0NzQsLTE0OTMxMDI4OTYsLTg1ODAwNjA4NCwtMTU3NTcy
+NTY4NSwyNDgxNTQ2MjMsMTI2NTIzNDg1LDE3NjkxMDExMjUsMT
+k2Njc1NDQwMiwyMTQ3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMw
+ODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV
+19
 -->
