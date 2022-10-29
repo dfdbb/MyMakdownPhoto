@@ -192,8 +192,9 @@ http://master:9870/dfshealth.html#tab-overview
 # hadoop集群搭建成功 
 
 访问地址为：tcp://6f1551m749.oicp.vip:24160
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDk5NjM1NSwtNDczODA3NDI3LDE1Mz
+eyJoaXN0b3J5IjpbLTEyMDg2ODIzOSwtNDczODA3NDI3LDE1Mz
 c2Nzg0NzQsLTE0OTMxMDI4OTYsLTg1ODAwNjA4NCwtMTU3NTcy
 NTY4NSwyNDgxNTQ2MjMsMTI2NTIzNDg1LDE3NjkxMDExMjUsMT
 k2Njc1NDQwMiwyMTQ3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMw
