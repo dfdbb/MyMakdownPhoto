@@ -176,15 +176,14 @@ cd /usr/local/hadoop
 
 ```
 cd /soft/hadoop
-./sbin/start-dfs.sh
-./sbin/start-yarn.sh
-./sbin/mr-jobhistory-daemon.sh start historyserver
+./start-all.sh
+
 #这样我们就可以在相应机器的19888端口上打开历史服务器的WEB UI界面。可以查看已经运行完的作业情况
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzY3ODQ3NCwtMTQ5MzEwMjg5NiwtOD
-U4MDA2MDg0LC0xNTc1NzI1Njg1LDI0ODE1NDYyMywxMjY1MjM0
-ODUsMTc2OTEwMTEyNSwxOTY2NzU0NDAyLDIxNDczNDA2NjUsND
-UyOTUxNDA5LDExNTAxMzA4MTUsMTYxMTM0NzAzNywtMjA4ODc0
-NjYxMiwxNDUyMjk2MjkxXX0=
+eyJoaXN0b3J5IjpbMTEwNTU0NDc5NSwxNTM3Njc4NDc0LC0xND
+kzMTAyODk2LC04NTgwMDYwODQsLTE1NzU3MjU2ODUsMjQ4MTU0
+NjIzLDEyNjUyMzQ4NSwxNzY5MTAxMTI1LDE5NjY3NTQ0MDIsMj
+E0NzM0MDY2NSw0NTI5NTE0MDksMTE1MDEzMDgxNSwxNjExMzQ3
+MDM3LC0yMDg4NzQ2NjEyLDE0NTIyOTYyOTFdfQ==
 -->
