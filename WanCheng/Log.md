@@ -4,7 +4,11 @@
 - 增加部分注释
 - 完善接口文档（------------------50%----------->)
 - 完善开发方向
+
+## 2022/11/1
+- 重构代码结构
+- 清理远程w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTg3NDAyMywtNzMwODcyNzI1LDg0NT
-Y3NjEwNF19
+eyJoaXN0b3J5IjpbMTI0NDUxNDEzOSwtNDM1ODc0MDIzLC03Mz
+A4NzI3MjUsODQ1Njc2MTA0XX0=
 -->
