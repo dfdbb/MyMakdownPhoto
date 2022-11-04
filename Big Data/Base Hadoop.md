@@ -6,7 +6,6 @@
 
 ```
 yum install -y java-1.8.0-openjdk-devel.x86_64 
-
 ```
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/objMw5ayGINvnmwM.png)
 安装成功：
@@ -19,7 +18,7 @@ yum install -y java-1.8.0-openjdk-devel.x86_64
 vim  .bashrc
 ```
 添加如下 内容：
-> export JAVA_HOME=/usr/lib/jvm/default-java
+> export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.352.b08-2.el7_9.x86_64
 
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/gwZF0dpKoVeMQVTu.png)
 
@@ -80,7 +79,7 @@ dfs.datanode.data.dir：datanode数据的存放位置，block块存放的位置
 ```shell
 		<property>
                 <name>dfs.namenode.secondary.http-address</name>
-                <value>k8smaster:50090</value>
+                <value>k8snode1:50090</value>
         </property>
         <property>
                 <name>dfs.replication</name>
@@ -199,7 +198,7 @@ http://master:9870/dfshealth.html#tab-overview
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTE5ODg5MzEsLTEyMDg2ODIzOSwtND
+eyJoaXN0b3J5IjpbLTEzOTY2OTEyNTYsLTEyMDg2ODIzOSwtND
 czODA3NDI3LDE1Mzc2Nzg0NzQsLTE0OTMxMDI4OTYsLTg1ODAw
 NjA4NCwtMTU3NTcyNTY4NSwyNDgxNTQ2MjMsMTI2NTIzNDg1LD
 E3NjkxMDExMjUsMTk2Njc1NDQwMiwyMTQ3MzQwNjY1LDQ1Mjk1
