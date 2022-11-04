@@ -12,8 +12,13 @@
 - 一个字（混)
 
 ## 2022/11/3
-- 梳理数据导入mysql
+- 梳理数据导入mysql功能开发流程
+- 梳理相应 正则表达式
+- 对相应功能进行简单开发与测试
+
+## 2022/11/4
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDUxODM4NCwtMTYyMzU5MjM4LC00Mz
+eyJoaXN0b3J5IjpbLTM4OTM2MDcwMywtMTYyMzU5MjM4LC00Mz
 U4NzQwMjMsLTczMDg3MjcyNSw4NDU2NzYxMDRdfQ==
 -->
