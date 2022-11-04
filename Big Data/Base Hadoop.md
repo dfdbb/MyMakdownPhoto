@@ -185,19 +185,19 @@ cd /usr/local/hadoop
 http://master:9870
 http://master:9870/dfshealth.html#tab-overview
 
-可自行
+结果如图：
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/YJ0IaeoKktSdOS8L.png)
 
 
 # hadoop集群搭建成功 
 
-访问地址为：tcp://6f1551m749.oicp.vip:24160
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDg2ODIzOSwtNDczODA3NDI3LDE1Mz
-c2Nzg0NzQsLTE0OTMxMDI4OTYsLTg1ODAwNjA4NCwtMTU3NTcy
-NTY4NSwyNDgxNTQ2MjMsMTI2NTIzNDg1LDE3NjkxMDExMjUsMT
-k2Njc1NDQwMiwyMTQ3MzQwNjY1LDQ1Mjk1MTQwOSwxMTUwMTMw
-ODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2MTIsMTQ1MjI5NjI5MV
-19
+eyJoaXN0b3J5IjpbLTEzODM4MTkzNTMsLTEyMDg2ODIzOSwtND
+czODA3NDI3LDE1Mzc2Nzg0NzQsLTE0OTMxMDI4OTYsLTg1ODAw
+NjA4NCwtMTU3NTcyNTY4NSwyNDgxNTQ2MjMsMTI2NTIzNDg1LD
+E3NjkxMDExMjUsMTk2Njc1NDQwMiwyMTQ3MzQwNjY1LDQ1Mjk1
+MTQwOSwxMTUwMTMwODE1LDE2MTEzNDcwMzcsLTIwODg3NDY2MT
+IsMTQ1MjI5NjI5MV19
 -->
