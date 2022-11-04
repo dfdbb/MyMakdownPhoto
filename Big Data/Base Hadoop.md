@@ -5,7 +5,8 @@
 在3台虚拟机上安装jdk
 
 ```
-yum install -y java-1.8.0-openjdk
+yum install -y java-1.8.0-openjdk-devel.x86_64 
+
 ```
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/objMw5ayGINvnmwM.png)
 安装成功：
@@ -188,13 +189,17 @@ http://master:9870/dfshealth.html#tab-overview
 结果如图：
 ![输入图片说明](https://raw.githubusercontent.com/dfdbb/MyMakdownPhoto/master/2022/YJ0IaeoKktSdOS8L.png)
 
+访问yarn web 界面:
+![输入图片说明](/imgs/2022-11-04/adp9xhuBABWA0jZh.png)
+
+
 
 # hadoop集群搭建成功 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODM4MTkzNTMsLTEyMDg2ODIzOSwtND
+eyJoaXN0b3J5IjpbLTE2NTE5ODg5MzEsLTEyMDg2ODIzOSwtND
 czODA3NDI3LDE1Mzc2Nzg0NzQsLTE0OTMxMDI4OTYsLTg1ODAw
 NjA4NCwtMTU3NTcyNTY4NSwyNDgxNTQ2MjMsMTI2NTIzNDg1LD
 E3NjkxMDExMjUsMTk2Njc1NDQwMiwyMTQ3MzQwNjY1LDQ1Mjk1
