@@ -10,7 +10,10 @@
 - 清理远程代码仓库
 - 上传新结构代码
 - 一个字（混)
+
+## 2022/11/3
+- 梳理数据导入mysql
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjM1OTIzOCwtNDM1ODc0MDIzLC03Mz
-A4NzI3MjUsODQ1Njc2MTA0XX0=
+eyJoaXN0b3J5IjpbLTk5NDUxODM4NCwtMTYyMzU5MjM4LC00Mz
+U4NzQwMjMsLTczMDg3MjcyNSw4NDU2NzYxMDRdfQ==
 -->
