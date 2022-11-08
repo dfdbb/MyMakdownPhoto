@@ -25,13 +25,17 @@ emm 忘了
 实现代码仓库托管
 实现txt文件导入功能
 
+- [x] 文件导入
+- [x] 数据清洗
+- [x] 存入数据库 
+
 目前待实现：
 - csv文件上传
 - 文件下载
 - 统计功能
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTAxNDU0OCwtMzg5MzYwNzAzLC0xNj
-IzNTkyMzgsLTQzNTg3NDAyMywtNzMwODcyNzI1LDg0NTY3NjEw
-NF19
+eyJoaXN0b3J5IjpbLTIxMDQxNjA0NjcsLTg1NTAxNDU0OCwtMz
+g5MzYwNzAzLC0xNjIzNTkyMzgsLTQzNTg3NDAyMywtNzMwODcy
+NzI1LDg0NTY3NjEwNF19
 -->
