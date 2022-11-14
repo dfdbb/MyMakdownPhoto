@@ -5,8 +5,20 @@
 ### Mid()函数
 
 ### VLOOKUP函数
-=VLOOKUP(找什么、哪	里找、返回哪列、返回表示为 1/TRUE 或 0/FALSE 的近似或精确匹配项)。
+=VLOOKUP(根据什么找、在哪里找、返回哪列、返回表示为 1/TRUE 或 0/FALSE 的近似或精确匹配项)。
+
+## SUMIF&SUMIFS()函数 
+数据源如图：
+![输入图片说明](/imgs/2022-11-14/kGoiSYXG8BaTI9QQ.png)
+SUMIF:
+求A组总销量:
+`=sumif(条件范围，条件，求和区域)`
+
+SUMIFS:
+求A组所有男性销量:
+`=sumifs(示例区域,条件区域1,条件1，条件区域2，条件2.....`
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzAyODM2MTFdfQ==
+eyJoaXN0b3J5IjpbNjY4ODkzMDQwLC0yMDcwMjgzNjExXX0=
 -->
