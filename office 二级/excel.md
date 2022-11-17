@@ -25,12 +25,12 @@ ISODD函数判断奇偶
 取出生日期:`=TEXT(MID([@身份证号码],7,8),"0000年00月00日")`
 
 取年龄:`=DATEDIF([@出生日期],TODAY(),"y")`
-
+> 隐藏函数
 datedif(起始日期，终止日期，日期单位)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODUyMjgyODAsLTIwNzAyODM2MTFdfQ
-==
+eyJoaXN0b3J5IjpbLTE2NzQxODA0MjAsLTEwODUyMjgyODAsLT
+IwNzAyODM2MTFdfQ==
 -->
