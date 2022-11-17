@@ -29,11 +29,11 @@ ISODD函数判断奇偶
 datedif(起始日期，终止日期，日期单位)
 
 
-RAN
+RANK()排名
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDA1MTc3MywtMTY3NDE4MDQyMCwtMT
+eyJoaXN0b3J5IjpbMjAzMTM3MjA2MiwtMTY3NDE4MDQyMCwtMT
 A4NTIyODI4MCwtMjA3MDI4MzYxMV19
 -->
