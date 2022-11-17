@@ -18,7 +18,9 @@ SUMIFS:
 求A组所有男性销量:
 `=sumifs(示例区域,条件区域1,条件1，条件区域2，条件2.....`
 
+IS
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4ODkzMDQwLC0yMDcwMjgzNjExXX0=
+eyJoaXN0b3J5IjpbMTcwNjQwODE2MiwtMjA3MDI4MzYxMV19
 -->
