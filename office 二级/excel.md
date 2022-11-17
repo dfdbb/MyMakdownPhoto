@@ -18,9 +18,13 @@ SUMIFS:
 求A组所有男性销量:
 `=sumifs(示例区域,条件区域1,条件1，条件区域2，条件2.....`
 
-IS
+ISODD函数判断奇偶
+
+判断男女：`=IF(ISODD(MID([@身份证号码],17,1)),"男","女")`
+
+取出生日期:`=TEXT(MID([@身份证号码],7,8),"0000年00月00日")`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjQwODE2MiwtMjA3MDI4MzYxMV19
+eyJoaXN0b3J5IjpbMjA0NDY2Njc3LC0yMDcwMjgzNjExXX0=
 -->
