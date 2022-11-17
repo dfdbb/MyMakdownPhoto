@@ -24,9 +24,11 @@ ISODD函数判断奇偶
 
 取出生日期:`=TEXT(MID([@身份证号码],7,8),"0000年00月00日")`
 
-datedif(起始日期，终止日期，
+datedif(起始日期，终止日期，日期单位)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5MzY0MTMwLC0yMDcwMjgzNjExXX0=
+eyJoaXN0b3J5IjpbLTEzNDQ2OTExOTksLTIwNzAyODM2MTFdfQ
+==
 -->
