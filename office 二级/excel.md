@@ -31,11 +31,11 @@ datedif(起始日期，终止日期，日期单位)
 
 RANK()排名: `=rank(值，范围，升或降)`
 
-
+字符串拼接：`="第"&RANK(F2,$F$2:$F$45)&"名"`
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDI2OTE4NywtMTc5MDA2NTYyNSwtMT
+eyJoaXN0b3J5IjpbLTQ4Nzg3NTY5NSwtMTc5MDA2NTYyNSwtMT
 Y3NDE4MDQyMCwtMTA4NTIyODI4MCwtMjA3MDI4MzYxMV19
 -->
