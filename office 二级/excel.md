@@ -33,12 +33,14 @@ RANK()排名: `=rank(值，范围，升或降)`
 
 字符串拼接：`="第"&RANK(F2,$F$2:$F$45)&"名" `
 
+![输入图片说明](/imgs/2022-11-21/s2JY2dcCsTR1DH5B.png)
 
+![输入图片说明](/imgs/2022-11-21/schA2qN12oJTr2UP.png)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDMxNTU5OSwtMTA0ODIwNDY4NSwtOT
+eyJoaXN0b3J5IjpbMjA3MDI0NDU0MSwtMTA0ODIwNDY4NSwtOT
 cwNTI2Njk3LC00ODc4NzU2OTUsLTE3OTAwNjU2MjUsLTE2NzQx
 ODA0MjAsLTEwODUyMjgyODAsLTIwNzAyODM2MTFdfQ==
 -->
