@@ -1,5 +1,5 @@
 ### RANK()函数可排名
-
+`="第"&RANK(F2,$F$2:$F$45)&"名"`
 ### Lookup()函数
 
 ### Mid()函数
@@ -36,7 +36,7 @@ RANK()排名: `=rank(值，范围，升或降)`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDUyNjY5NywtNDg3ODc1Njk1LC0xNz
-kwMDY1NjI1LC0xNjc0MTgwNDIwLC0xMDg1MjI4MjgwLC0yMDcw
-MjgzNjExXX0=
+eyJoaXN0b3J5IjpbLTEwNDgyMDQ2ODUsLTk3MDUyNjY5NywtND
+g3ODc1Njk1LC0xNzkwMDY1NjI1LC0xNjc0MTgwNDIwLC0xMDg1
+MjI4MjgwLC0yMDcwMjgzNjExXX0=
 -->
